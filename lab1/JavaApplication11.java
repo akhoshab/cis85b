@@ -10,7 +10,7 @@ import java.util.TreeMap;
 
 /**
  *
- * @author ashur
+ * @author ayla
  */
 public class JavaApplication11 {
 
@@ -18,19 +18,15 @@ public class JavaApplication11 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
         TreeMap<String, String> barcodes = new TreeMap<String, String>();
         ProductList pt = new ProductList();
         CartsList ct = new CartsList();
         initBarCodes(barcodes);
         
-        int cart = 0;
         int barlen = 9;
         int numChar;
         int index = 0;
         for (ArrayList<String> lists: ct.cl) {
-            //System.out.println("cart = " + cart);
-            cart++;
             for (String elements: lists)    {
                 String pstr = ""; //products string
                 String barstr = ""; //barcode string 
@@ -41,8 +37,6 @@ public class JavaApplication11 {
                     index = i * barlen;
                     barstr = elements.substring(index, index + barlen);
                     pstr = pstr + barcodes.get(barstr);
-                  
-                    //System.out.println("i =  " + i + " " + elements.substring(index, index + barlen));
                 }
                 price_val = (pt.pls).get(pstr);
                 System.out.println("product = " + pstr + " price =  " + price_val);

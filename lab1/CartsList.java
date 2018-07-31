@@ -16,7 +16,7 @@ import org.xml.sax.helpers.DefaultHandler;
 
 /**
  *
- * @author ashur
+ * @author ayla
  */
    
 /**
@@ -32,7 +32,7 @@ public class CartsList {
       try {
          SAXParserFactory factory = SAXParserFactory.newInstance();
          SAXParser saxParser = factory.newSAXParser();
-        // Create a tree map. 
+        // Create a two dimensional array. 
         cl = new ArrayList<ArrayList<String>>();
         DefaultHandler handler;
         int numCarts = cl.size();

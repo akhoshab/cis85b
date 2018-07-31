@@ -30,7 +30,7 @@ public class ProductList {
          SAXParser saxParser = factory.newSAXParser();
         // Create a tree map. 
         pl = new TreeMap<String, Double>();
-        pls = new TreeMap<String, Double>();
+        pls = new TreeMap<String, Double>(); // short list
          //int count = 0;
          DefaultHandler handler;
          
