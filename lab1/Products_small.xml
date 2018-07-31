@@ -1,0 +1,64 @@
+<BarcodeList>
+	<Product>
+		<Name>Air freshener</Name>
+		<Price>12.43</Price>
+	</Product>
+	<Product>
+		<Name>Alfredo sauce</Name>
+		<Price>10.71</Price>
+	</Product>
+	<Product>
+		<Name>All spice</Name>
+		<Price>4.14</Price>
+	</Product>
+	<Product>
+		<Name>Allergy medication</Name>
+		<Price>20.06</Price>
+	</Product>
+	<Product>
+		<Name>Aluminum foil</Name>
+		<Price>8.92</Price>
+	</Product>
+	<Product>
+		<Name>Anchovies</Name>
+		<Price>6.04</Price>
+	</Product>
+	<Product>
+		<Name>Antacids</Name>
+		<Price>10.88</Price>
+	</Product>
+	<Product>
+		<Name>Apple sauce</Name>
+		<Price>16.84</Price>
+	</Product>
+	<Product>
+		<Name>Apples</Name>
+		<Price>14.3</Price>
+	</Product>
+	<Product>
+		<Name>Apricots</Name>
+		<Price>7.51</Price>
+	</Product>
+	<Product>
+		<Name>Asparagus</Name>
+		<Price>20.23</Price>
+	</Product>
+	<Product>
+		<Name>Avocados</Name>
+		<Price>9.38</Price>
+	</Product>
+	<Product>
+		<Name>Baby food</Name>
+		<Price>5.82</Price>
+	</Product>
+	<Product>
+		<Name>Bacon</Name>
+		<Price>1.68</Price>
+	</Product>
+	<Product>
+		<Name>Bagels</Name>
+		<Price>9.16</Price>
+	</Product>
+</BarcodeList>
+
+
