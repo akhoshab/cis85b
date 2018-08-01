@@ -76,7 +76,7 @@ public class ProductList {
                         double price = pl.get(pname)+ value;  
                         pl.put(pname, price);  
 		        pls.put(pnames.toUpperCase(), price);
-                        //System.out.println("Name :  " + pnames  + " Price : " + new String(ch, start, length));
+                        System.out.println("Name :  " + pnames  + " [" + pname  + "] Price : " + new String(ch, start, length));
 
                         
 		}

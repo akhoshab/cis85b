@@ -23,7 +23,7 @@ public class JavaApplication11 {
         CartsList ct = new CartsList();
         initBarCodes(barcodes);
         
-        int barlen = 9;
+        int barlen = 9; // barcode length for one character
         int numChar;
         int index = 0;
         for (ArrayList<String> lists: ct.cl) {
